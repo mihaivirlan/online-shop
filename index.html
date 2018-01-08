@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MEN'S LIFESTYLE CLOTHING</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Simple web site">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Playfair+Display:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+                    <!---   Navbar      -->
+<div class="container-fluid menu">
+            <div class="row">
+                <nav class="navbar">
+
+                    <div class="logo col-lg-3 col-sm-2 col-xs-12 text-center">
+                        <p>ModaX</p>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-8 col-xs-6 text-center">
+                        <ul class="menu-element nav nav-pills">
+                            <li role="presentation"><a class="text-uppercase" href="#">Home</a></li>
+                            <li role="presentation"><a class="text-uppercase" href="#">SHOP</a></li>
+                            <li role="presentation"><a class="text-uppercase" href="#">PORTOFOLIO</a></li>
+                            <li role="presentation"><a class="text-uppercase" href="#">PAGE</a></li>
+                            <li role="presentation"><a class="text-uppercase" href="#">BLOG</a></li>
+                            <li role="presentation"><a class="text-uppercase" href="#">ELEMENTS</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="menu-element col-lg-3 col-sm-2 col-xs-6 text-center">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            <span class="badge basket-status">0</span>
+                        <button type="button" data-toggle="modal" data-target="#myModal" class="src-btn">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true" ></span>
+                        </button>
+                        <!--    Modal   -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-btn-warning" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <h1>Search</h1>
+                                        <form class="navbar-form " role="search">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Search Products">
+                                            </div>
+                                            <button type="submit" class="btn btn-default">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--    End Modal   --->
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+
+<div class="heading container-fluid text-center">
+    <h2>MEN'S LIFESTYLE CLOTHING</h2>
+	 <ol class="breadcrumb">
+		  <li><a href="#">Home</a></li>
+          <span class="glyphicon glyphicon-triangle-right"></span>
+		  <li><a href="#">Catalog</a></li>
+          <span class="glyphicon glyphicon-triangle-right"></span>
+		  <li><a href="#">Men</a></li>
+          <span class="glyphicon glyphicon-triangle-right"></span>
+		  <li class="active"><a href="#">Clothing</a></li>
+	</ol>
+</div>
+                    <!---   End navbar   -->
+
+
+                    <!--        Banner      --->
+<div class="banner container">
+    <div class="row">
+
+        <div class="novelties container col-lg-8 col-sm-8 hidden-xs">
+            <h5>LIFESTYLE</h5>
+            <h3>New Now: Striped cotton</h3>
+            <span type="button" class="btn btn-default">More info</span>
+        </div>
+
+        <div class="novelties-second container col-lg-4 col-sm-4">
+            <h5>LIFESTYLE</h5>
+            <h3>New Now: Striped cotton</h3>
+            <span type="button" class="btn btn-default">More info</span>
+        </div>
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-3 col-sm-3 hidden-xs no-space filter-col">
+            <div class="col-lg-9 col-sm-9 col-xs-9 filter-lbl-col">
+                <p class="filter-lbl">FILTER</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 hidden-xs filter-lbl-btn text-center">
+                <a href="#" class="">
+                    <span class="glyphicon glyphicon-refresh"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-3 hidden-xs no-space">
+            <select class="form-control" name="sort" id="Sort_by">
+                <option value="1" selected>SORT BY: Price $ - $$</option>
+                <option value="2">SORT BY: Option 2</option>
+                <option value="3">SORT BY: Option 3</option>
+            </select>
+        </div>
+
+        <div class="col-lg-3 col-sm-3 hidden-xs no-space">
+            <select class="form-control" name="show" id="Show_by">
+                <option value="1" selected>SHOW: 10</option>
+                <option value="2">SHOW: 50</option>
+                <option value="3">SHOW: 100</option>
+            </select>
+        </div>
+
+        <div class="col-lg-3 col-sm-3 hidden-xs no-space brd">
+            <div class="col-lg-3 col-sm-3 no-space grd text-center">
+                <a href="#" class="">
+                    <span class="glyphicon glyphicon-th"></span>
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 hidden-xs no-space grd text-center">
+                <a href="#" class="">
+                    <span class="glyphicon glyphicon-th-list"></span>
+                </a>
+            </div>
+
+            <div class="col-lg-6 col-sm-6 hidden-xs no-space blue-btn text-center">
+                <a href="#" class="">
+                    <p class="blu-btn-lbl">VIEW ALL</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+                    <!--        End Banner        --->
+
+
+                    <!--        Sidebar     --->
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-3 col-sm-3  sidebar">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <p class="panel-title">
+                    <span class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        CATEGORIES
+                    </span>
+                </p>
+
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+
+                    <ul class="cat-list">
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
+                                    <h5>Lifestyle</h5>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                    <h5>01</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
+                                    <h5>Running</h5>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                    <h5>02</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
+                                    <h5>Trainning & Gym</h5>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                    <h5>03</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
+                                    <h5>Clothing</h5>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                    <h5>04</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
+                                    <h5>Scarves</h5>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                    <h5>05</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
+                                    <h5>Accessories</h5>
+                                </div>
+                                <div class="col-lg-4 col-sm-8 col-xs-4">
+                                    <h5>06</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
+                                    <h5>Shoes</h5>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                    <h5>07</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
+                                    <h5>Fragrance</h5>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                    <h5>08</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
+                                    <h5>Football</h5>
+                                </div>
+                                <div class="col-lg-4 col-sm-4 col-xs-4">
+                                    <h5>09</h5>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p id="accordi" class="panel-title">
+                <span class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     SIZE
+                </span>
+            </p>
+
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                   <div class="row">
+
+                       <div class="col-lg-3 col-sm-3 col-xs-3 size-bar text-center">
+                        S
+                       </div>
+
+                       <div class="col-lg-3 col-sm-3 col-xs-3 size-bar text-center">
+                        M
+                       </div>
+
+                       <div class="col-lg-3 col-sm-3 col-xs-3 size-bar text-center">
+                        L
+                       </div>
+
+                       <div class="col-lg-3 col-sm-3 col-xs-3 size-bar text-center">
+                        XL
+                       </div>
+                   </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-9 col-sm-9 col-xs-12 product-list">
+
+        </div>
+		
+    </div>
+                        <!--        End main screen     --->
+
+
+                        <!--        Pagination      --->
+    <div class="row pag">
+        <div class="col-lg-1 col-sm-1 col-xs-6 prev">
+            <a href="#">❮</a>
+        </div>
+
+        <div class="col-lg-10 col-sm-10 hidden-xs">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4 col-xs-6  grid">
+
+                </div>
+
+                <div class="col-lg-4 col-sm-4">
+                    <div class="row">
+
+                        <div class="col-lg-2 col-sm-2 grid">
+                            <a class="active" href="#">01</a>
+                        </div>
+
+                        <div class="col-lg-2 col-sm-2 grid">
+                            <a href="#">02</a>
+                        </div>
+
+                        <div class="col-lg-2 col-sm-2 grid">
+                            <a href="#">03</a>
+                        </div>
+
+                        <div class="col-lg-2 col-sm-2 grid">
+                            <a href="#">04</a>
+                        </div>
+
+                        <div class="col-lg-2 col-sm-2 grid">
+                            <a href="#">...</a>
+                        </div>
+
+                        <div class="col-lg-2 col-sm-2 grid">
+                            <a href="#">06</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-4 col-xs-6 grid">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-1 col-sm-1 col-xs-6 next">
+            <a href="#">❯</a>
+        </div>
+
+    </div>
+                        <!--        End Pagination      --->
+</div>
+
+                    <!--        Carousel            --->
+<div id="carousel-example-generic" class="carousel slide crs-margin" data-ride="carousel">
+  <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+                        <!-- Wrapper for slides --->
+   <div class="carousel-inner" role="listbox">
+        <div class="item active" style="background-image: url('images/img1.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover">
+            <img src="" alt="">
+        </div>
+
+        <div class="item" style="background-image: url('images/img2.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover">
+            <img src="" alt="">
+        </div>
+
+       <div class="item" style="background-image: url('images/img3.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover">
+           <img src="" alt="">
+       </div>
+
+   </div>
+
+</div>
+                    <!--        End Carousel        --->
+
+
+                    <!--        Partners            --->
+<div class="container-fluid">
+    <div class="row partners">
+
+        <div class="col-lg-3 col-sm-6 text-center">
+            <img src="images/1.png">
+        </div>
+
+        <div class="col-lg-3 col-sm-6 text-center">
+            <img src="images/2.png">
+        </div>
+
+        <div class="col-lg-3 col-sm-6 text-center">
+            <img src="images/3.png">
+        </div>
+
+        <div class="col-lg-3 col-sm-6 text-center">
+            <img src="images/5.png">
+        </div>
+
+    </div>
+</div>
+                    <!--        End Partners        --->
+
+
+                    <!--    Javascript Links    -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--    End Links           -->
+
+<script src="fetch.js"></script>
+</body>
+
+
+<footer>
+    <div class="container-fluid footer-form">
+        <div class="row">
+            <div class="col-lg-4 col-sm-4 col-xs-4 detalii">
+                <div class="row">
+
+                    <div class="col-lg-4 col-sm-4">
+
+                    </div>
+
+                    <div class="col-lg-4 col-sm-4 prg">
+                        <p>ModaX</p>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span>f</span>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <span>Be</span>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <span>in</span>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <span>Instagram</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-4">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 col-xs-4 detalii">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <span>MAN</span>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <span>WOMAN</span>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <span>LOOKBOOK</span>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <span>SALE</span>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <span>BLOG</span>
+                    </div>
+
+                    <div class="col-lg-2">
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                <p>Subscribe to news</p>
+                <br>
+                <form class="form-inline" action="#">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Email Adress">
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 col-xs-4 detalii">
+                <div class="row">
+
+                    <div class="col-lg-8 col-sm-8 col-xs-4">
+                        <p>CONTACT US</p>
+                        <br>
+                        <p>San Francisco California<br>400 Castro St.San Francisco,CA<br>+145689222</p>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span>PayPal</span>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <span>MasterCard</span>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <span>VISA</span>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <span>MoneyGram</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-4">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
