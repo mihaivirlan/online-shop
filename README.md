@@ -1,4 +1,4 @@
-# online-shop
+# JavaScript online-shop
 
 
 
