@@ -1,9 +1,6 @@
 # JavaScript online-shop
 
+# Below you find the link on the firebase:
 
-
-
-# Below you find the link on the firebase
-
-https://online-shop-79cc6.firebaseapp.com/
+# https://online-shop-79cc6.firebaseapp.com/
 
